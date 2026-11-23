@@ -6,7 +6,7 @@ Single source of truth for actions. Demo snapshot: 2026-11-22. Move a task betwe
 
 - [ ] Review November spending and set the card payment #task #area/money ⏫ 📅 2026-11-25
 - [ ] Complete four planned training sessions #task #area/health 🔼 📅 2026-11-27
-- [ ] Practice the Northwind Labs technical interview #task #area/career ⏫ 📅 2026-11-24
+- [ ] Write up my Q4 project wins for the review #task #area/career ⏫ 📅 2026-11-24
 - [ ] Study retrieval evaluation for two focused hours #task #area/learning ⏫ 📅 2026-11-26
 - [ ] Replace the HVAC filter #task #area/home 🔼 📅 2026-11-28
 - [ ] Check in with Maya before her birthday #task #area/people 🔼 📅 2026-11-24

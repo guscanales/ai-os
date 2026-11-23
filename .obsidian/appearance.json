@@ -3,5 +3,6 @@
     "ai-os"
   ],
   "theme": "obsidian",
-  "cssTheme": ""
+  "cssTheme": "",
+  "showRibbon": true
 }

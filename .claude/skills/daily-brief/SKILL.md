@@ -27,6 +27,6 @@ Command Center.md, generated Daily brief section only
 
 ## Output example
 
-2026-11-23 priorities: interview practice, spending review, recording preparation. Workout: Pull. Nudge: end editing at 22:00.
+2026-11-23 priorities: Q4 wins doc, spending review, recording preparation. Workout: Pull. Nudge: end editing at 22:00.
 
 If direct file access is unavailable, return the target path and proposed Markdown. Never claim a write happened until it is saved. Keep all public demo content fictional.
