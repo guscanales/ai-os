@@ -36,6 +36,7 @@ I am Gus Canales, a software engineer living in the US. In this fictional exampl
 - Grocery shopping checkboxes are an explicit exception. They stay in Groceries.md without #task. Other notes link to Tasks.md.
 - Dates use ISO YYYY-MM-DD. ISO week IDs and requested month filenames are allowed labels.
 - Never edit generated dashboards by hand. Refresh Command Center.md and Spending summaries through the named skills or loops using source notes. The AI follows the playbook; there is no hidden generator script.
+- The AI regenerates the HTML panel at the top of Command Center.md from the source notes and must keep only classes from .obsidian/snippets/ai-os.css.
 - No em dashes or en dashes anywhere, including anything I send to people. Write short, direct English. Avoid hype.
 - Ask before deleting. Preserve captures with destination links until deletion is approved.
 - Never store secrets: passwords, account numbers or ID numbers. Keep them outside the vault. Never commit real statements.

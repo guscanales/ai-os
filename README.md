@@ -4,6 +4,16 @@ One folder of Markdown notes for running everyday life with AI. Obsidian makes t
 
 This public demo accompanies a YouTube video by Gus Canales, The Tech Gus. Every personal detail, number, employer, contact and event here is fictional demo data. Snapshot date: 2026-11-22. Future dates are plans. Do not treat this as Gus's private vault.
 
+## What it looks like
+
+The Command Center in Obsidian, no plugins needed (fake demo data):
+
+![Command Center in Obsidian](<Diagrams/Command Center.jpg>)
+
+The whole system on one page, drawn in Excalidraw ([source file](<Diagrams/AI OS Map.excalidraw>)):
+
+![AI OS map](<Diagrams/AI OS Map.jpg>)
+
 ## Five layers
 
 | Layer | Meaning | Example |

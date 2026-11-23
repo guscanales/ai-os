@@ -5,6 +5,7 @@
 3. Answer one question at a time with only information you want stored.
 4. Ask the AI to replace the demo data with your answers.
 5. Open [[Command Center]] to explore this example first.
+6. See the whole system on one page: [[Diagrams/AI OS Map|AI OS Map]].
 
 ```text
 You are my AI operating system. I want one folder of plain Markdown notes that you and any other AI I use can read and update.

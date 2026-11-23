@@ -1,0 +1,136 @@
+/* Hallmark · macrostructure: Stat-Led · tone: calm and practical · anchor hue: lime
+ * Pre-emit critique: Philosophy 4, Hierarchy 5, Execution 4, Specificity 5, Restraint 5, Variety 4.
+ * Scoped to the generated panel. No downloads or community plugins required.
+ */
+.markdown-preview-view:has(.aios-dashboard) {
+  --file-line-width: 1280px;
+  --background-primary: #111413;
+  --background-primary-alt: #171b19;
+  --text-normal: #edf0e9;
+  --text-muted: #a7b0a5;
+  --h2-color: #edf0e9;
+  --link-color: #9bd247;
+  --link-color-hover: #c6ee8b;
+  background: var(--background-primary);
+  color: var(--text-normal);
+}
+.markdown-preview-view:has(.aios-dashboard) .markdown-preview-sizer {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+.aios-dashboard {
+  --aios-bg: #111413;
+  --aios-surface: #1a1e1b;
+  --aios-raised: #20261f;
+  --aios-border: #30382e;
+  --aios-text: #edf0e9;
+  --aios-muted: #a7b0a5;
+  --aios-accent: #76B900;
+  --aios-link: #b2df75;
+  --aios-focus: #c6ee8b;
+  --aios-font: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  container-type: inline-size;
+  min-width: 0;
+  padding: 8px 0 12px;
+  color: var(--aios-text);
+  font: 14px/1.45 var(--aios-font);
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.aios-dashboard *, .aios-dashboard *::before, .aios-dashboard *::after { box-sizing: border-box; }
+.aios-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
+.aios-title { font-size: 32px; font-weight: 700; letter-spacing: -1px; line-height: 1.2; }
+.aios-greeting { color: var(--aios-muted); margin-top: 8px; font-size: 15px; }
+.aios-date-block { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.aios-week { font-size: 14px; font-weight: 600; }
+.aios-muted { color: var(--aios-muted); font-size: 12px; }
+.aios-kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-bottom: 20px; }
+.aios-card { min-width: 0; border: 1px solid var(--aios-border); border-radius: 16px; background: var(--aios-surface); }
+.aios-kpi { padding: 18px 20px; }
+.aios-label { color: var(--aios-muted); font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+.aios-value { font-size: 29px; font-weight: 650; line-height: 1.2; letter-spacing: -.8px; }
+.aios-unit { color: var(--aios-muted); font-size: 14px; font-weight: 400; letter-spacing: 0; white-space: nowrap; }
+.aios-progress { height: 5px; border-radius: 8px; background: var(--aios-border); overflow: clip; margin: 15px 0 10px; }
+.aios-fill { display: block; height: 100%; background: var(--aios-accent); border-radius: inherit; }
+.aios-spending { width: calc(100% * 2860 / 3800); }
+.aios-workouts { width: calc(100% * 3 / 4); }
+.aios-study { width: calc(100% * 5 / 6); }
+.aios-caption { color: var(--aios-muted); font-size: 11px; }
+.aios-payoff { color: var(--aios-muted); font-size: 12px; margin: 12px 0 8px; }
+.aios-payoff span { color: var(--aios-link); font-weight: 600; }
+.aios-main { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr); gap: 20px; }
+.aios-week-card { padding: 20px; }
+.aios-section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.aios-heading { font-size: 16px; font-weight: 650; letter-spacing: -.2px; }
+.aios-dashboard a.internal-link { color: var(--aios-text); text-decoration: none; }
+.aios-dashboard a.aios-text-link { font-size: 12px; color: var(--aios-link); }
+.aios-dashboard a.internal-link:hover { color: var(--aios-focus); text-decoration: none; }
+.aios-dashboard a.internal-link:focus-visible { outline: 2px solid var(--aios-focus); outline-offset: 4px; border-radius: 4px; }
+.aios-dashboard a.internal-link:active { color: var(--aios-link); }
+.aios-task { display: grid; grid-template-columns: 16px minmax(0, 1fr) auto 68px; align-items: center; gap: 10px; min-height: 44px; padding: 9px 0; border-bottom: 1px solid var(--aios-border); }
+.aios-checkbox { width: 14px; height: 14px; border: 1px solid var(--aios-muted); border-radius: 4px; }
+.aios-task-name { font-size: 13px; }
+.aios-chip { padding: 3px 6px; border-radius: 5px; font-size: 10px; line-height: 1.4; white-space: nowrap; }
+.aios-date { color: var(--aios-muted); background: var(--aios-bg); }
+.aios-area { color: var(--aios-link); background: var(--aios-raised); text-align: center; }
+.aios-footnote { color: var(--aios-muted); font-size: 11px; margin-top: 12px; }
+.aios-sidebar { display: grid; grid-template-rows: auto 1fr; gap: 16px; }
+.aios-today, .aios-nudges { padding: 18px 20px; }
+.aios-today { border-top: 2px solid var(--aios-accent); }
+.aios-pill { color: var(--aios-link); font-size: 11px; background: var(--aios-raised); border-radius: 16px; padding: 3px 9px; }
+.aios-priority { display: flex; align-items: flex-start; gap: 10px; padding: 7px 0; font-size: 13px; }
+.aios-priority-mark { color: var(--aios-accent); font-weight: 700; }
+.aios-nudge { display: flex; align-items: flex-start; gap: 10px; margin-top: 12px; font-size: 12px; color: var(--aios-muted); }
+.aios-dot { flex: 0 0 5px; height: 5px; border-radius: 50%; margin-top: 6px; background: var(--aios-accent); }
+.aios-areas-head { margin: 20px 0 12px; }
+.aios-tiles { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.aios-dashboard a.aios-tile { display: flex; flex-direction: column; gap: 10px; min-width: 0; padding: 16px; border-radius: 12px; border: 1px solid var(--aios-border); background: var(--aios-surface); }
+.aios-dashboard a.aios-tile:hover { background: var(--aios-raised); border-color: var(--aios-accent); }
+.aios-tile-top { display: flex; gap: 8px; align-items: center; }
+.aios-icon { font-size: 18px; line-height: 1; }
+.aios-tile-name { font-size: 13px; font-weight: 600; white-space: nowrap; }
+.aios-arrow { margin-left: auto; color: var(--aios-muted); font-size: 13px; }
+.aios-tile-status { color: var(--aios-muted); font-size: 11px; line-height: 1.4; }
+.aios-loops { display: grid; grid-template-columns: auto repeat(3, minmax(0, 1fr)); align-items: center; gap: 24px; margin-top: 20px; padding: 16px 20px; border: 1px solid var(--aios-border); border-radius: 12px; }
+.aios-loop { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3px 10px; font-size: 12px; }
+.aios-loop a { white-space: nowrap; }
+.aios-loop-time { color: var(--aios-link); }
+.aios-loop-status { grid-column: 1 / -1; font-size: 11px; color: var(--aios-muted); }
+.aios-snapshot-note { margin-top: 10px; color: var(--aios-muted); font-size: 11px; text-align: right; }
+/* Respond to the note pane as well as the window, including split panes. */
+@container (max-width: 1000px) {
+  .aios-main { grid-template-columns: minmax(0, 1fr); }
+  .aios-sidebar { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto; }
+  .aios-tiles { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .aios-kpi { padding: 16px; }
+  .aios-tile-top { gap: 6px; }
+  .aios-arrow { display: none; }
+}
+@container (max-width: 760px) {
+  .aios-kpis, .aios-sidebar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .aios-tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .aios-header { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .aios-date-block { align-items: flex-start; }
+  .aios-loops { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
+@container (max-width: 520px) {
+  .aios-sidebar { grid-template-columns: minmax(0, 1fr); }
+  .aios-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .aios-task { grid-template-columns: 16px minmax(0, 1fr) auto; gap: 8px; }
+  .aios-task-name { grid-column: 2 / -1; }
+  .aios-date { grid-column: 2; justify-self: start; }
+  .aios-area { grid-column: 3; }
+  .aios-section-head { flex-wrap: wrap; }
+  .aios-snapshot-note { text-align: left; }
+  .aios-title { font-size: 28px; }
+  .aios-value { font-size: 25px; }
+  .aios-kpi { padding: 12px; }
+  .aios-kpis { gap: 10px; }
+}
+@media print {
+  .aios-dashboard { break-inside: auto; }
+  .aios-card, .aios-tile, .aios-loops { break-inside: avoid; }
+}
